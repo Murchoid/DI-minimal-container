@@ -1,5 +1,5 @@
 import { Injectable } from "../decorators/injectable";
-import mockdata from "../assets/users.mockdb.json";
+import mockdata from "../mocks/users.mockdb.json";
 import { LoggerService } from "./logger.service";
 import { IUser } from "../interfaces/user.interface";
 
