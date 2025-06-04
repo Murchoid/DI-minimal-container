@@ -24,6 +24,9 @@ src/
 │   └── app.service.ts        # Depends on UserService & LoggerService
 |___ interfaces/
 |    |_user.interface.ts      # Interfaces
+|
+|___ mocks
+     |__ users.mockdb.json    # Mock database for users
 ````
 
 ---
