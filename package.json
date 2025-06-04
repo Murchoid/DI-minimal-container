@@ -1,0 +1,24 @@
+{
+  "name": "dipendancyinjection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx --watch ./src/main.ts",
+    "start": "pnpm tsc ./src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.10.0",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "express": "^5.1.0",
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
